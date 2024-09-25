@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Ejercicios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Calendario Semanal de Ejercicios</h1>
+
+    <div class="calendar">
+        <!-- Lunes -->
+        <div id="lunes" class="day">
+            <h3>Lunes</h3>
+            <ul>
+                <li data-exercise="kegel"><strong>Ejercicios de Kegel:</strong> 10 repeticiones de 5 segundos</li>
+                <li data-exercise="squat"><strong>Sentadillas:</strong> 3 series de 15 repeticiones</li>
+                <li data-exercise="run"><strong>Cardio:</strong> Correr o bicicleta, 30 min</li>
+                <li data-exercise="lagartijas"><strong>Lagartijas Básicas:</strong> 3 series de 10 repeticiones</li>
+            </ul>
+        </div>
+
+        <!-- Martes -->
+        <div id="martes" class="day">
+            <h3>Martes</h3>
+            <ul>
+                <li data-exercise="ldp"><strong>Levantamiento de pelvis:</strong> 3 series de 12 repeticiones</li>
+                <li data-exercise="plank"><strong>Planchas:</strong> 3 series de 30-60 segundos</li>
+                <li data-exercise="cardio"><strong>Cardio:</strong> Correr o caminar rápido, 30 min</li>
+                <li data-exercise="diamante"><strong>Lagartijas con Manos en Diamante:</strong> 3 series de 10 repeticiones</li>
+            </ul>
+        </div>
+
+        <!-- Miércoles -->
+        <div id="miercoles" class="day">
+            <h3>Miércoles</h3>
+            <ul>
+                <li data-exercise="ldp"><strong>Ejercicios de Kegel:</strong> 10 repeticiones de 10 segundos</li>
+                <li data-exercise="flex"><strong>Flexiones:</strong> 3 series de 10 repeticiones</li>
+                <li data-exercise="squat"><strong>Sentadillas:</strong> 3 series de 15 repeticiones</li>
+                <li data-exercise="lelep"><strong>Lagartijas con Elevación de Piernas:</strong> 3 series de 10 repeticiones</li>
+            </ul>
+        </div>
+
+        <!-- Jueves -->
+        <div id="jueves" class="day">
+            <h3>Jueves</h3>
+            <ul>
+                <li data-exercise="run"><strong>Cardio:</strong> Correr o nadar, 30 min</li>
+                <li data-exercise="pg"><strong>Puente para glúteos:</strong> 3 series de 12 repeticiones</li>
+                <li data-exercise="plank"><strong>Planchas:</strong> 3 series de 30-60 segundos</li>
+                <li data-exercise="lagartijas"><strong>Lagartijas Básicas:</strong> 3 series de 10 repeticiones</li>
+            </ul>
+        </div>
+
+        <!-- Viernes -->
+        <div id="viernes" class="day">
+            <h3>Viernes</h3>
+            <ul>
+                <li data-exercise="kegel"><strong>Ejercicios de Kegel:</strong> 10 repeticiones de 10 segundos</li>
+                <li data-exercise="squat"><strong>Sentadillas:</strong> 3 series de 15 repeticiones</li>
+                <li data-exercise="ldp"><strong>Levantamiento de pelvis:</strong> 3 series de 12 repeticiones</li>
+                <li data-exercise="diamante"><strong>Lagartijas con Manos en Diamante:</strong> 3 series de 10 repeticiones</li>
+            </ul>
+        </div>
+
+        <!-- Sábado -->
+        <div id="sabado" class="day">
+            <h3>Sábado</h3>
+            <ul>
+                <li data-exercise="run"><strong>Cardio:</strong> Correr, caminar rápido o nadar, 30-45 min</li>
+                <li data-exercise="flex"><strong>Flexiones:</strong> 3 series de 10 repeticiones</li>
+                <li data-exercise="pg"><strong>Puente para glúteos:</strong> 3 series de 12 repeticiones</li>
+                <li data-exercise="lelep"><strong>Lagartijas con Elevación de Piernas:</strong> 3 series de 10 repeticiones</li>
+            </ul>
+        </div>
+
+        <!-- Domingo -->
+        <div id="domingo" class="day">
+            <h3>Domingo</h3>
+            <ul>
+                <li data-exercise="stretch"><strong>Descanso activo:</strong> Caminata ligera, estiramientos, 30 min</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="" alt="Ejercicio del día">
+        </div>
+    </div>
+
+    <footer>
+        <p>Recuerda ser constante y aumentar la intensidad a medida que tus músculos se fortalezcan.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
